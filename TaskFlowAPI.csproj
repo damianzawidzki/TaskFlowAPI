@@ -23,13 +23,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="Authentication\" />
     <Folder Include="Middleware\" />
     <Folder Include="Helpers\" />
     <Folder Include="Configurations\" />
     <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

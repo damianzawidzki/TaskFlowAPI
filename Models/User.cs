@@ -12,5 +12,6 @@ namespace TaskFlowAPI.Models
         public string Role { get; set; } = "User";
         public DateTime CreatedBy { get; set; } = DateTime.UtcNow;
         public List<TaskItem> Tasks { get; set; } = new();
+        public DateTime CreatedAt { get; internal set; }
     }
 }
